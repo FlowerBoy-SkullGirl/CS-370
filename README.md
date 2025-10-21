@@ -1,3 +1,5 @@
 # CS-370
 
-In the final project for CS-370, we were tasked with building the qtrain() method, which would use Deep Q learning to train an intelligent agent to traverse a given maze to find a 'treasure' cell. 
+In the final project for CS-370, we were tasked with building the qtrain() method, which would use Deep Q learning to train an intelligent agent to traverse a given maze to find a 'treasure' cell. The code in this method is meant to initialize a state for the agent, use a mixture of explotation and exploration to choose actions in each given state, and step through the previous step until a state failure or success is reached. This allows us to use the Epsilon Greedy strategy to allow for more exploration early on, then force the model to act based on its q-table once it has gathered enough information about the environment. 
+
+Broadly speaking, as computer scientists entering the labour market in the modern day (2025 as of writing), we face heavy pressure to be familiar with artificial intelligence and incorporate it into our work (even where it is not applicable, in some cases). This class gave me a stronger understanding of artificial intelligence and the way it is trained and makes decisions based on probabilities, random number generation, or learned experience as calculated by a variety of formulae. 
